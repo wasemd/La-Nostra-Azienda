@@ -63,18 +63,6 @@ body {
   border-radius: 100%;
 }
 
-/* .crop99
-  {
-    width: 100%;
-    height: 400px;
-    overflow: hidden;
-}
-.crop99 img{
-  margin: 0px 0px 0px 30px;
-
-} */
-
-
 /* Start section about */
 
 .about {
@@ -89,8 +77,6 @@ body {
   font-size: 25px;
   margin-top: 15px;
 }
-/* end section about*/
-
 /* start section features */
 .features {
   background: plum;
@@ -111,8 +97,6 @@ body {
   margin-bottom: 10px;
   color: rgba(3, 3, 3, 0.3);
 }
-/* end section features */
-
 /* Start section testimonials */
 .testimonials {
   padding-top: 50px;
@@ -148,7 +132,7 @@ body {
   opacity: 0.5; /* opacity لعمل الصور شفافه */
   border: 3px solid red;
   border-radius: 50%;
-  overflow: hidden; /* حذف اي شئ خارج البوردر */
+  overflow: hidden; /* حذف اي جزء من الصوره خارج البوردر */
   margin: 5px;
   -webkit-transition: all 5.5s ease;
   -moz-transition: all 0.5s ease;
@@ -165,7 +149,6 @@ body {
   background: none;
   border: 3px solid cadetblue;
 }
-/* end section testimonials */
 
 /* Start section price table */
 .price-table {
@@ -218,7 +201,8 @@ body {
 
 /* Start section our team */
 .our-team {
-  background: url(AdobeStock_143110026.jpeg) no-repeat center center fixed;
+  background: url(../images/AdobeStock_143110026.jpeg) no-repeat center center
+    fixed;
   min-height: 600px;
 }
 .our-team .team {
@@ -228,14 +212,74 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.our-team .team img{
+.our-team .team img {
   width: 80px;
   height: 80px;
+  background: white;
 }
-.our-team h1{
+.our-team h1 {
   margin-bottom: 60px;
 }
-.our-team .person{
+.our-team .person {
   margin-bottom: 40px;
+}
+/* Start section Subscribe */
+.subscribe {
+  padding-top: 40px;
+  padding-bottom: 70px;
+  background: aqua;
+}
+.subscribe h1 {
+  color: black;
+  letter-spacing: 2px; /* (لعمل مسافات بين الحروف) */
+  padding-bottom: 20px;
+}
+.subscribe p {
+  margin-bottom: 30px;
+}
+.subscribe .form-control {
+  border-radius: 0;
+  margin-right: -5px;
+  width: 300px;
+}
+.subscribe button {
+  border-radius: 0;
+}
 
+/* Start section statistics */
+.statistics {
+  background: url(../images/Windmills.jpg) no-repeat center center fixed;
+  min-height: 400px;
+}
+.statistics .data {
+  background-color: rgba(2, 2, 2, 0.7);
+  color: #b6b5b5;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.statistics h1
+{
+  padding-bottom: 60px;
+}
+.statistics .stats{
+  -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.5 ease-in-out;
+  -o-transition: all 0.5 ease-in-out;
+ transition: all 0.5 ease-in-out;
+  margin-bottom: 30px;
+
+}
+.statistics .stats :hover{
+  color: white;
+}
+.statistics p
+{
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+.statistics .span{
+  font-size: 18px;
+  margin-bottom: 20px;
 }
