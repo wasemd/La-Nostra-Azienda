@@ -201,8 +201,13 @@ body {
 
 /* Start section our team */
 .our-team {
-  background: url(../images/AdobeStock_143110026.jpeg) no-repeat center center
+  background: url(../images/Highway.jpg) no-repeat center center
     fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
   min-height: 600px;
 }
 .our-team .team {
@@ -249,11 +254,15 @@ body {
 /* Start section statistics */
 .statistics {
   background: url(../images/Windmills.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
   min-height: 400px;
 }
 .statistics .data {
   background-color: rgba(2, 2, 2, 0.7);
-  color: #b6b5b5;
+  color: #d1cdcd;
   min-height: 400px;
   padding-top: 40px;
   padding-bottom: 70px;
@@ -282,4 +291,43 @@ body {
 .statistics .span{
   font-size: 18px;
   margin-bottom: 20px;
+}
+/* Start section our Skills */
+.our-skills{
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.our-skills h1{
+margin-bottom: 60px;
+}
+.our-skills h3{
+font-weight: bold;
+margin-top: 0;
+}
+.our-skills .progress{
+height: 36px;
+}
+.our-skills .progress-bar{
+  line-height: 36px;
+  font-size: 15px;
+  font-weight: bold;
+text-align: left;
+text-indent: 10px;
+}
+/* Start section our Contact Us */
+
+.contact-us{
+  background: url(../images/Windmills.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  min-height: 400px;
+}
+.contact-us .fields{
+background:rgba(9,9,9,0.5);
+min-height: 400px;
+color: #ddd;
+padding-top: 40px;
+padding-bottom: 40px;
 }
