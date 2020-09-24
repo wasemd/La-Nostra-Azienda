@@ -1,6 +1,5 @@
 body {
   padding-top: 70px;
-  height: 5000px;
 }
 
 /* stert overriding Bootstrap */
@@ -8,19 +7,19 @@ body {
 /* Main navbar */
 .navbar {
   min-height: 70px;
-  background-color: #222;
+  background-color: #333;
 }
 
 /* navbar link */
 .navbar-inverse .navbar-nav > li > a {
-  color: plum;
+  color: #aaa;
   padding-bottom: 25px;
   padding-top: 25px;
   font-size: 16px;
 }
 .navbar-inverse .navbar-brand {
   margin-top: 10px;
-  color: plum;
+  color: cornflowerblue;
   font-size: 35px;
 }
 
@@ -61,6 +60,7 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 100%;
+  
 }
 
 /* Start section about */
@@ -69,7 +69,7 @@ body {
   padding-top: 40px;
   padding-bottom: 60px;
 }
-.about h1 {
+.about h2 {
   font-weight: bold;
 }
 .about .lead {
@@ -89,7 +89,7 @@ body {
 .features .feat p {
   line-height: 2em;
 }
-.features h1 {
+.features h2 {
   margin-bottom: 50px;
 }
 .features .feat span.glyphicon {
@@ -156,7 +156,7 @@ body {
   padding-bottom: 40px;
   background: rgb(218, 209, 209);
 }
-.price-table h1 {
+.price-table h2 {
   margin-bottom: 35px;
 }
 .price-table .price-box {
@@ -222,7 +222,7 @@ body {
   height: 80px;
   background: white;
 }
-.our-team h1 {
+.our-team h2 {
   margin-bottom: 60px;
 }
 .our-team .person {
@@ -234,7 +234,7 @@ body {
   padding-bottom: 70px;
   background: aqua;
 }
-.subscribe h1 {
+.subscribe h2 {
   color: black;
   letter-spacing: 2px; /* (لعمل مسافات بين الحروف) */
   padding-bottom: 20px;
@@ -267,15 +267,15 @@ body {
   padding-top: 40px;
   padding-bottom: 70px;
 }
-.statistics h1
+.statistics h2
 {
   padding-bottom: 60px;
 }
 .statistics .stats{
-  -webkit-transition: all 0.5 ease-in-out;
-  -moz-transition: all 0.5 ease-in-out;
-  -o-transition: all 0.5 ease-in-out;
- transition: all 0.5 ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;
   margin-bottom: 30px;
 
 }
@@ -297,7 +297,7 @@ body {
   padding-top: 40px;
   padding-bottom: 70px;
 }
-.our-skills h1{
+.our-skills h2{
 margin-bottom: 60px;
 }
 .our-skills h3{
@@ -318,6 +318,7 @@ text-indent: 10px;
 
 .contact-us{
   background: url(../images/Windmills.jpg) no-repeat center center fixed;
+  /* background: url(../images/IMG_2987.JPG) no-repeat center center fixed; */
   -webkit-background-size:cover;
   -moz-background-size:cover;
   -o-background-size:cover;
@@ -331,3 +332,81 @@ color: #ddd;
 padding-top: 40px;
 padding-bottom: 40px;
 }
+.contact-us p{
+  margin-bottom: 40px;
+}
+.contact-us textarea{
+  height: 108px;
+}
+/* Start section our clients */
+.our-clients{
+  background: #eee;
+  padding-top: 30px;
+padding-bottom: 30px
+}
+.our-clients img{
+opacity: 0.4;
+filter: alpha(opacity=40);
+margin-top: 30px;
+margin-bottom: 30px;
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+.our-clients img:hover{
+  opacity: 1;
+}
+/* Start Ultimati Footer section */
+.footer{
+  background: white;
+  color: #555;
+  padding-top: 10px;
+}
+.footer a{
+  color: #aaa;
+}
+.footer a:hover{
+  color: #fff;
+}
+.footer h3{
+  color: #0895D1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+.footer .three-columns{
+  overflow: hidden;
+}
+.footer .three-columns li{
+  width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+.footer .social-list {
+  overflow: hidden;
+margin: 20px 0 10px;
+}
+.footer .social-list li{
+  float: left;
+margin-right: 3px;
+opacity: 0.7;
+filter: alpha(opacity=70);
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+  
+  .footer .social-list li:hover{
+    opacity: 1;
+  }
+  .footer .copyright{
+    background: white;
+    color: #aaa;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .footer .copyright span{
+    color: #0895d1;
+  }
